@@ -1,6 +1,6 @@
 # SwaggerOnSpring
 
-SwaggerOnSpring is a Spring Boot 3 application that integrates Swagger 3 for API documentation. This project provides a ready-to-use setup for documenting and testing REST APIs using Swagger UI.
+SwaggerOnSpring is a Spring Boot 3 application that integrates Swagger 3 for API documentation. This project provides a ready-to-use setup for documenting and testing REST APIs using Swagger UI as well as RestAssured tests methods.
 
 ## Table of Contents
 
