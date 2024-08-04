@@ -17,10 +17,20 @@ public class StudentService {
     public Set<Student> getAllStudents() {
         return students;
     }
+
     public Student getStudent(String name) {
         return students.stream()
                 .filter(student -> student.getName().equals(name))
                 .findFirst()
                 .orElse(null);
+    }
+
+    public Student addStudent(Student student) {
+        students.add(student);
+        return student;
+    }
+
+    public void deleteStudent(String name) {
+        students.removeIf(student -> student.getName().equals(name));
     }
 }
